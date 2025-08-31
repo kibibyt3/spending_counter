@@ -1,6 +1,7 @@
 # Liv's Spending Counter
 ## Description
 This is a small tool I made to quickly parse through bank transaction logs to track specific spending. It will find all matches of a given regular expression in a transaction log and find the sum of the prices of all instances of that pattern.
+
 The program assumes that transactions are newline-separated and that each dollar-value is preceded by `-$`. For instance, the line `BUSINESS.INC -$34.90 $9000.00` will be treated as if $34.90 were spent at BUSINESS.INC.
 ## Usage
 ```bash
